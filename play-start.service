@@ -1,0 +1,16 @@
+[Unit]
+
+Description=Test play
+
+
+[Service]
+Type = forking
+ExecStart = /bin/bash /home/ubuntu/start.sh
+
+
+
+[Install]
+
+WantedBy = multi-user.target
+
+
